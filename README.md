@@ -67,5 +67,4 @@ ipywidgets
 
 Steps:
 1. Download the data from the above mentioned website - PROSTATEx-2 Challenge Data
-2. Download the Preprocessing code folder change the path in each of the codes and run it on Python except for the first code which you need torun on the Slicer Python Interface to convert
-the DICOM to NRRD images.
+2. Download the Preprocessing code folder change the path in each of the codes and run it on Python except for the first code (00_dicom_to_nrrd.py) which you need torun on the Slicer Python Interface to convert the DICOM to NRRD images.
