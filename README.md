@@ -24,12 +24,10 @@ Approximately 40-50% of the Prostate Cancer patients are given more severe and r
 
 Recently mpMRI is increasingly being used for PCa diagnosis. Clinical trials such as PROMIS (Prostate MR Imaging Study) and PRECISION (Prostate Evaluation for Clinically Important Disease: Sampling Using Image Guidance) further support the concept of targeted biopsy with mpMRI, and the results have led to increased acceptance of mpMRI for PCa screening. However, 15-30% of clinically significant cancers are missed even by expert radiologists using conventional Magnetic Resonance Imaging (MRI) due to the subjective nature of prostate MRI interpretation. Below are the collateral issues faced by the two main agencies in this case: The Patient and the Radiologist
 
-(1)	Each miss treated patient has to undergo continuous biopsies and a complete  
-            prostate removal procedure which are enormously painful and cause a huge 
-            economic burden on patients’ budget.
-(2)	The Radiologists on the other hand face with a lower efficiency in performance 
-            with such a high miss treatment rate, caused due to subjectivity of translation of 
-            MRI reports.
+            1. Each miss treated patient has to undergo continuous biopsies and a complete prostate removal procedure which are enormously painful and cause a huge economic     
+             burden on patients’ budget.
+            2. The Radiologists on the other hand face with a lower efficiency in performance with such a high miss treatment rate, caused due to subjectivity of translation of 
+             MRI reports.
 
 Therefore, the performance of MR imaging still needs to improve before it can be used for the screening of large populations. 
 Both these problems can be mitigated with the help of  CAD tools with a combination of newer data analytics techniques such as AI and specifically deep learning methods  
