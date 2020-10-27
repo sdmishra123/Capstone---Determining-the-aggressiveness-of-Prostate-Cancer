@@ -1,4 +1,4 @@
-# Capstone Project - The University of Chicago Partnered with The University of Chicago Medicine School
+# Capstone Project - Graham School of Continuing Liberal and Professional Studies (Uchicago) Partnered with The University of Chicago Medicine School
 
 
 
