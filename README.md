@@ -1,9 +1,10 @@
 # Capstone Project - Graham School of Continuing Liberal and Professional Studies (Uchicago) Partnered with The University of Chicago Medicine School
 
 
+## Determining Aggressiveness of Prostate Cancer Based On Multiparametric MRI (mpMRI)
 
-### Determining Aggressiveness of Prostate Cancer Based On Multiparametric MRI (mpMRI)
 
+### Background
 
 40% of one in nine men suffering from Prostate Cancer (PCa) are indolent – cancer which may exist for a long period without causing any symptoms or death. 
 However, a large percentage of these patients undergo unnecessary treatment leading to significant complications. Therefore, this project addresses the crucial need for 
@@ -14,7 +15,7 @@ peripheral parts of the prostate for patients as seen in the data, the modelling
 Gleason scores which further improves the diagnostic accuracy of determining the clinical aggressiveness of prostate cancer. 
 
 
-⮚	Problem Statement
+### Problem Statement
 
 Prostate cancer that's detected early, when it's still confined to the prostate gland, has a better chance of successful treatment. 
 An elevated prostate-specific antigen (PSA) test and/or abnormality of the prostate identified during a digital rectal exam (DRE) typically are the 
@@ -37,9 +38,11 @@ Deep neural networks are now the state-of-the-art machine learning models across
 in academia and industry. These developments have a huge potential for medical imaging technology, medical data analysis, medical diagnostics and healthcare in general, 
 slowly being realized.
 
-Data Source: PROSTATEx-2 Challenge Data - https://wiki.cancerimagingarchive.net/display/Public/SPIE-AAPM-NCI+PROSTATEx+Challenges#23691656d4622c5ad5884bdb876d6d441994da38
+### Data Source: 
 
-⮚	Variables and Scope:
+PROSTATEx-2 Challenge Data - https://wiki.cancerimagingarchive.net/display/Public/SPIE-AAPM-NCI+PROSTATEx+Challenges#23691656d4622c5ad5884bdb876d6d441994da38
+
+### Variables and Scope:
 
 The scope of this project is to determine the Gleason score (measure of aggressiveness of PCa) from MRI scan images of patients by using computer vision models.
 The input to the model will be MRI images and the response variable is the Gleason score.
@@ -57,7 +60,7 @@ apparent diffusion coefficient (ADC) images and Bvalue (b-value) images (both co
 These cases contain a total of 182 findings (lesions): the training set contains 112 findings, and the test set contains 70 findings. L
 ocation and a reference thumbnail image is provided for each lesion, and each lesion will have known pathology-defined Gleason Grade Group. 
 
-Requirements:
+### Requirements:
 Slicer Software - To convert the DICOM images and MHD format images to NRRD format
 Python
 SimpleITK
@@ -65,6 +68,10 @@ nibabel
 ipywidgets
 
 
-Steps:
+### Steps:
 1. Download the data from the above mentioned website - PROSTATEx-2 Challenge Data
 2. Download the Preprocessing code folder change the path in each of the codes and run it on Python except for the first code (00_dicom_to_nrrd.py) which you need torun on the Slicer Python Interface to convert the DICOM to NRRD images.
+
+
+### Team Members:
+This was a group effort involving Radhika Singh Ghelot & Divya Ravindran
